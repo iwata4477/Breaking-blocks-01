@@ -1,2 +1,6 @@
 ﻿<Solution>
+  <Project Path="Paddle.csproj" />
+  <Project Path="Block.csproj" />
+  <Project Path="NewAssembly.csproj" />
+  <Project Path="Core.csproj" />
 </Solution>

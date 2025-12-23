@@ -1,0 +1,16 @@
+{
+    "name": "Block",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ef10cff1147c9cb4cbb3d406ec640356"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
