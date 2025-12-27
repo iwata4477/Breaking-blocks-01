@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class Ball : MonoBehaviour
 {
     public float speed = 5f;
@@ -6,7 +8,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = Vector2.up * speed;
+        rb.linearVelocity = Vector2.up * speed;
     }
 
     void OnTriggerEnter2D(Collider2D other)

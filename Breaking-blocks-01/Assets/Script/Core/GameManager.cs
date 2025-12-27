@@ -1,3 +1,4 @@
+using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
@@ -8,12 +9,10 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
     }
-
-    void Start()
-    {
-        blockCount = FindObjectsOfType<Block>().Length;
-    }
-
+   public void RegisterBlock()
+{
+    blockCount++;
+}
     public void BlockDestroyed()
     {
         blockCount--;

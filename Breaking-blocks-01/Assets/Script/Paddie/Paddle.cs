@@ -1,3 +1,4 @@
+using UnityEngine;
 public class Paddle : MonoBehaviour
 {
     public float speed = 10f;
